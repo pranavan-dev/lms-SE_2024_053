@@ -1,4 +1,4 @@
 package lms.model;
 
-public class Staff {
+public class Staff extends Member{
 }

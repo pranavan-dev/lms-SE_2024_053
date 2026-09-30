@@ -8,7 +8,8 @@ public class DVD extends LibraryItem {
         this.durationMinutes = durationMinutes;
     }
 
-    // TODO: getDurationMinutes() 
+    // TODO: getDurationMinutes()
+    public int getDurationMinutes(){return this.durationMinutes;}
 
     @Override
     public double calculateLateFee(int daysLate) {

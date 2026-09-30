@@ -21,17 +21,15 @@ public abstract class LibraryItem {
 
     public void isBorrowed(){
         if(!this.isBorrowed){
-            System.out.println("Book is already borrowed");
-            return;
+            throw new IllegalArgumentException("Book already borrowed");
         }
         this.isBorrowed = true;
     }
 
 
     public void setId(String id) {
-        if (id == null || id.trim().isEmpty()){
-            System.out.println("Id cannot be blank!");
-            return;
+        if (id == null || id.trim().isBlank()){
+            throw new IllegalArgumentException("Id cannot be blank");
         }
         this.id = id;
         // TODO: if id is null or blank, throw 
@@ -41,9 +39,8 @@ public abstract class LibraryItem {
 
     // TODO: setTitle(String title) - same pattern, message "Title cannot be blank"
     public void setTitle(String title){
-        if(title == null){
-            System.out.println("Title cannot be blank!");
-            return;
+        if(title == null || title.trim().isBlank()){
+            throw new IllegalArgumentException("Title cannot be blank");
         }
         this.title = title;
     }
@@ -53,10 +50,7 @@ public abstract class LibraryItem {
     public void borrowItem() { /* TODO */ } 
     public void returnItem() { /* TODO */ } 
   
-    public double calculateLateFee(int daysLate) {
-        // TODO: return daysLate * 10.0   (the default rate)
-        return daysLate * 10.0;
-    }
+    public double calculateLateFee(int daysLate) {return daysLate * 10.0; }
   
 //    @Override
 //    public String toString() {

@@ -52,9 +52,10 @@ public abstract class LibraryItem {
   
     public double calculateLateFee(int daysLate) {return daysLate * 10.0; }
   
-//    @Override
-//    public String toString() {
-//        // TODO: return readable text about this item, e.g.
-//        //       Book{id='B001', title='Clean Code', borrowed=false}
-//    }
+    @Override
+    public String toString() {
+        return "Book{id='"+this.id+"', title='"+this.title+"', borrowed="+this.isBorrowed+"}";
+        // TODO: return readable text about this item, e.g.
+
+    }
 }

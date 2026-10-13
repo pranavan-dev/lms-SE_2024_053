@@ -6,4 +6,9 @@ public class Staff extends Member{
     public Staff(String memberId, String name) {
         super(memberId,name,STAFF_BORROW_LIMIT);
     }
+
+    @Override
+    public String toString() {
+        return "Staff"+super.toString();
+    }
 }

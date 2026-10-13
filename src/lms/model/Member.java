@@ -52,10 +52,8 @@ public class Member {
         setBorrowedCount(tempBorrowedCount);
     }
 
-    @Override
     public String toString() {
-        return "Book{Member Id='"+this.memberId+"', name='"+this.name+"', Borrowed Count ="+this.borrowedCount+"}";
-
+        return "{Member Id='"+this.memberId+"', name='"+this.name+"', Borrowed Count ="+this.borrowedCount+"}";
     }
 
     // TODO: setBorrowedCount(int) - reject negative numbers  ---

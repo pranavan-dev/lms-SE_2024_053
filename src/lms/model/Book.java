@@ -19,7 +19,13 @@ public class Book extends LibraryItem {
         }
         this.author = author;
     }
-    // TODO: getAuthor() 
+
+    @Override
+    public String toString() {
+        return "Book"+super.toString();
+    }
+
+    // TODO: getAuthor()
     // TODO: setAuthor(String author) - reject null/blank with 
     //       IllegalArgumentException("Author cannot be blank")
 

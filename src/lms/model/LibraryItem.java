@@ -54,7 +54,7 @@ public abstract class LibraryItem {
   
     @Override
     public String toString() {
-        return "Book{id='"+this.id+"', title='"+this.title+"', borrowed="+this.isBorrowed+"}";
+        return "{id='"+this.id+"', title='"+this.title+"', borrowed="+this.isBorrowed+"}";
         // TODO: return readable text about this item, e.g.
 
     }

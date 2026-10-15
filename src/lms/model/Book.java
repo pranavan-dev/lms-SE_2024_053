@@ -20,10 +20,6 @@ public class Book extends LibraryItem {
         this.author = author;
     }
 
-    @Override
-    public String toString() {
-        return "Book"+super.toString();
-    }
 
     // TODO: getAuthor()
     // TODO: setAuthor(String author) - reject null/blank with 

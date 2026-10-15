@@ -40,20 +40,16 @@ public class Member {
 
     // TODO: setMemberId, setName - reject null/blank
     public void setBorrowedCount(int borrowedCount){
-        if(this.borrowedCount < 0){
-            throw new IllegalArgumentException("Borrowed count cannot be negative");
-        }
+        if(this.borrowedCount < 0) throw new IllegalArgumentException("Borrowed count cannot be negative");
         this.borrowedCount = borrowedCount;
     }
 
-    public void incrementBorrowedCount(){
-        int tempBorrowedCount = this.borrowedCount;
-        tempBorrowedCount+=1;
-        setBorrowedCount(tempBorrowedCount);
+    public void incrementBorrowedCount() {
+        setBorrowedCount(borrowedCount + 1);
     }
 
     public String toString() {
-        return "{Member Id='"+this.memberId+"', name='"+this.name+"', Borrowed Count ="+this.borrowedCount+"}";
+        return getClass().getPackageName()+"{Member Id='"+this.memberId+"', name='"+this.name+"', Borrowed Count ="+this.borrowedCount+"}";
     }
 
     // TODO: setBorrowedCount(int) - reject negative numbers  ---

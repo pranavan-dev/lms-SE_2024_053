@@ -39,6 +39,12 @@ public class Main {
         Library1.listMembers();
         Library1.printAllLateFees(3);
 
+        try {
+            Library1.addItem(new Book("B003", " ", "Unknown"));
+        } catch (IllegalArgumentException exception) {
+            System.out.println("Rejected invalid book: "
+                    + exception.getMessage());
+        }
 
     }
 }

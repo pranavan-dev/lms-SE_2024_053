@@ -47,15 +47,17 @@ public abstract class LibraryItem {
   
 
   
-    public void borrowItem() { /* TODO */ } 
-    public void returnItem() { /* TODO */ } 
+    public void borrowItem() { isBorrowed = true; }
+    public void returnItem() { isBorrowed = false; }
   
     public double calculateLateFee(int daysLate) {return daysLate * 10.0; }
   
     @Override
     public String toString() {
-        return "{id='"+this.id+"', title='"+this.title+"', borrowed="+this.isBorrowed+"}";
+        return getClass().getSimpleName()+"{id='"+this.id+"', title='"+this.title+"', borrowed="+this.isBorrowed+"}";
         // TODO: return readable text about this item, e.g.
 
     }
+
+
 }

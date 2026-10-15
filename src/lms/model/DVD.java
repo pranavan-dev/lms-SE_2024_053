@@ -16,9 +16,4 @@ public class DVD extends LibraryItem {
         // TODO: DVDs cost 25.0 per day late
         return daysLate * 25.0;
     }
-
-    @Override
-    public String toString() {
-        return "DVD"+super.toString();
-    }
 }

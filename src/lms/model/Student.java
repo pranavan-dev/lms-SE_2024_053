@@ -8,8 +8,4 @@ public class Student extends Member {
         // TODO: super(memberId, name, STUDENT_BORROW_LIMIT);
     }
 
-    @Override
-    public String toString() {
-        return "Student"+super.toString();
-    }
 }

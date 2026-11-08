@@ -1,13 +1,46 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    IO.println(String.format("Hello and welcome!"));
 
-    for (int i = 1; i <= 5; i++) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        IO.println("i = " + i);
+package lms;
+
+import lms.model.Book;
+import lms.model.DVD;
+import lms.model.Student;
+import lms.model.Staff;
+import lms.service.Library;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Library library = new Library();
+
+
+        Book book1 = new Book("B001", "Clean Code", "Robert C. Martin");
+        Book book2 = new Book("B002", "Effective Java", "Joshua Bloch");
+
+        DVD dvd1 = new DVD("D001", "Introduction to Algorithms", 120);
+
+        library.addItem(book1);
+        library.addItem(book2);
+        library.addItem(dvd1);
+
+        Student student = new Student("M001", "Pranavan");
+
+        Staff staff = new Staff("M002", "Kasun Silva");
+
+        library.addMember(student);
+        library.addMember(staff);
+
+        library.listItems();
+
+        library.listMembers();
+
+        library.printAllLateFees(3);
+
+        try {
+            Book invalidBook = new Book("B003", "", "Unknown");
+
+        } catch (IllegalArgumentException e) {
+            System.out.println("Rejected invalid book: " + e.getMessage());
+        }
     }
 }

@@ -5,15 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcb5dcc4-2a07-4f56-8b71-b9e759131a11" name="Changes" comment="">
-      <change afterPath="D:/lms-SE_2024_053/src/lms/model/Loanable.java" afterDir="false" />
-      <change afterPath="D:/lms-SE_2024_053/src/lms/model/Magazine.java" afterDir="false" />
-      <change afterPath="D:/lms-SE_2024_053/src/lms/model/Reservable.java" afterDir="false" />
       <change beforePath="D:/lms-SE_2024_053/.idea/workspace.xml" beforeDir="false" afterPath="D:/lms-SE_2024_053/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="D:/lms-SE_2024_053/src/lms/model/Book.java" beforeDir="false" afterPath="D:/lms-SE_2024_053/src/lms/model/Book.java" afterDir="false" />
+      <change beforePath="D:/lms-SE_2024_053/src/lms/model/LibraryItem.java" beforeDir="false" afterPath="D:/lms-SE_2024_053/src/lms/model/LibraryItem.java" afterDir="false" />
+      <change beforePath="D:/lms-SE_2024_053/src/lms/model/Loanable.java" beforeDir="false" afterPath="D:/lms-SE_2024_053/src/lms/model/Loanable.java" afterDir="false" />
+      <change beforePath="D:/lms-SE_2024_053/src/lms/model/Magazine.java" beforeDir="false" afterPath="D:/lms-SE_2024_053/src/lms/model/Magazine.java" afterDir="false" />
+      <change beforePath="D:/lms-SE_2024_053/src/lms/model/Reservable.java" beforeDir="false" afterPath="D:/lms-SE_2024_053/src/lms/model/Reservable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="18" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,61 +49,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0" />
-      <entry key="S60" value="1.0" />
-      <entry key="M2" value="1.0" />
-      <entry key="M5" value="1.0" />
-      <entry key="M10" value="1.0" />
-      <entry key="M15" value="1.0" />
-      <entry key="M30" value="1.0" />
-      <entry key="H1" value="1.0" />
-      <entry key="H2" value="1.0" />
-      <entry key="H4" value="1.0" />
-      <entry key="D1" value="1.0" />
-      <entry key="W1" value="1.0" />
+      <entry key="MS100" value="6.813565903622347E-25" />
+      <entry key="MS500" value="1.8684017521134896E-5" />
+      <entry key="S2" value="0.15767212648597184" />
+      <entry key="S5" value="1.0802574273181738" />
+      <entry key="S10" value="2.0746337415585034" />
+      <entry key="S30" value="3.4805839440372934" />
+      <entry key="S60" value="5.001019094102872" />
+      <entry key="M2" value="7.588148918222864" />
+      <entry key="M5" value="12.375902973960148" />
+      <entry key="M10" value="17.577594372591157" />
+      <entry key="M15" value="21.09936570396907" />
+      <entry key="M30" value="26.835085411483426" />
+      <entry key="H1" value="31.145144208173328" />
+      <entry key="H2" value="33.84122100962341" />
+      <entry key="H4" value="35.357062887163295" />
+      <entry key="D1" value="36.71681536655899" />
+      <entry key="W1" value="36.959308423557125" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="MS100" value="1.0000004238332183" />
+      <entry key="MS500" value="1.0536937701393607" />
+      <entry key="S2" value="1.6398084974332807" />
+      <entry key="S5" value="2.4078430514793103" />
+      <entry key="S10" value="3.1612109212673585" />
+      <entry key="S30" value="4.422439844709061" />
+      <entry key="S60" value="6.12100222831597" />
+      <entry key="M2" value="9.620092628311522" />
+      <entry key="M5" value="17.948867798920354" />
+      <entry key="M10" value="26.474488827303315" />
+      <entry key="M15" value="31.48801684603564" />
+      <entry key="M30" value="38.754021707644064" />
+      <entry key="H1" value="43.71631885014565" />
+      <entry key="H2" value="46.66526103100331" />
+      <entry key="H4" value="48.28032576294763" />
+      <entry key="D1" value="49.70574320406755" />
+      <entry key="W1" value="49.957770905585384" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.7737824967711949" />
-      <entry key="MS500" value="0.950000382874886" />
-      <entry key="S2" value="0.9872586443741826" />
-      <entry key="S5" value="0.9948838432045924" />
-      <entry key="S10" value="0.9974386413231605" />
-      <entry key="S30" value="0.9991454837844128" />
-      <entry key="S60" value="0.9995726505784424" />
-      <entry key="M2" value="0.9997863024559009" />
-      <entry key="M5" value="0.9999145155017389" />
-      <entry key="M10" value="0.9999572568373805" />
-      <entry key="M15" value="0.9999715043552523" />
-      <entry key="M30" value="0.9999857520761245" />
-      <entry key="H1" value="0.9999928760126866" />
-      <entry key="H2" value="0.9999964379999994" />
-      <entry key="H4" value="0.9999982189984137" />
-      <entry key="D1" value="0.999999703166182" />
-      <entry key="W1" value="0.9999999575951635" />
+      <entry key="MS100" value="0.03280366910625535" />
+      <entry key="MS500" value="0.5346289149155312" />
+      <entry key="S2" value="1.5234515673239775" />
+      <entry key="S5" value="3.2770422728527224" />
+      <entry key="S10" value="5.072609377815483" />
+      <entry key="S30" value="7.814869472674023" />
+      <entry key="S60" value="11.055141003773855" />
+      <entry key="M2" value="17.149366774509023" />
+      <entry key="M5" value="30.267168611162642" />
+      <entry key="M10" value="44.00064401767222" />
+      <entry key="M15" value="52.543489714390084" />
+      <entry key="M30" value="65.56004369573836" />
+      <entry key="H1" value="74.8444899266734" />
+      <entry key="H2" value="80.49727181328093" />
+      <entry key="H4" value="83.6325858652379" />
+      <entry key="D1" value="86.42172908713157" />
+      <entry key="W1" value="86.91696009936524" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -113,28 +118,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "week4-abstraction-interfaces",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/lms-SE_2024_053/src/Main.java",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;week4-abstraction-interfaces&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/lms-SE_2024_053/src/Main.java&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lms.Main" />
@@ -176,5 +181,20 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://D:/lms-SE_2024_053/src/lms/model/Loanable.java</url>
+          <line>4</line>
+          <properties class="lms.model.Loanable" method="returnItem">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

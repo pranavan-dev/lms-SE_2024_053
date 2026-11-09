@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcb5dcc4-2a07-4f56-8b71-b9e759131a11" name="Changes" comment="">
+      <change afterPath="D:/lms-SE_2024_053/src/lms/model/Loanable.java" afterDir="false" />
+      <change afterPath="D:/lms-SE_2024_053/src/lms/model/Magazine.java" afterDir="false" />
+      <change afterPath="D:/lms-SE_2024_053/src/lms/model/Reservable.java" afterDir="false" />
       <change beforePath="D:/lms-SE_2024_053/.idea/workspace.xml" beforeDir="false" afterPath="D:/lms-SE_2024_053/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="D:/lms-SE_2024_053/src/lms/Main.java" beforeDir="false" afterPath="D:/lms-SE_2024_053/src/lms/Main.java" afterDir="false" />
-      <change beforePath="D:/lms-SE_2024_053/src/lms/model/Book.java" beforeDir="false" afterPath="D:/lms-SE_2024_053/src/lms/model/Book.java" afterDir="false" />
-      <change beforePath="D:/lms-SE_2024_053/src/lms/model/DVD.java" beforeDir="false" afterPath="D:/lms-SE_2024_053/src/lms/model/DVD.java" afterDir="false" />
-      <change beforePath="D:/lms-SE_2024_053/src/lms/model/LibraryItem.java" beforeDir="false" afterPath="D:/lms-SE_2024_053/src/lms/model/LibraryItem.java" afterDir="false" />
-      <change beforePath="D:/lms-SE_2024_053/src/lms/model/Member.java" beforeDir="false" afterPath="D:/lms-SE_2024_053/src/lms/model/Member.java" afterDir="false" />
-      <change beforePath="D:/lms-SE_2024_053/src/lms/model/Staff.java" beforeDir="false" afterPath="D:/lms-SE_2024_053/src/lms/model/Staff.java" afterDir="false" />
-      <change beforePath="D:/lms-SE_2024_053/src/lms/model/Student.java" beforeDir="false" afterPath="D:/lms-SE_2024_053/src/lms/model/Student.java" afterDir="false" />
-      <change beforePath="D:/lms-SE_2024_053/src/lms/service/Library.java" beforeDir="false" afterPath="D:/lms-SE_2024_053/src/lms/service/Library.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -30,18 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="D:/lms-SE_2024_053" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "pranavan-dev"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;pranavan-dev&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/pranavan-dev/lms-SE_2024_053.git",
-    "accountId": "613f0bf6-b039-4f10-be13-7f20d07370fd"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/pranavan-dev/lms-SE_2024_053.git&quot;,
+    &quot;accountId&quot;: &quot;613f0bf6-b039-4f10-be13-7f20d07370fd&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -105,10 +101,10 @@
       <entry key="W1" value="0.9999999575951635" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3Lp6dH6ybjXOb4SYOx8cxhINp7u" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -127,7 +123,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "week2-encapsulation-inheritance-",
+    "git-widget-placeholder": "week4-abstraction-interfaces",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",

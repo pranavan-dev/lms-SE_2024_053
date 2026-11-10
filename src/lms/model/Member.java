@@ -1,7 +1,7 @@
-
 package lms.model;
 
-public class Member {
+//public class Member implements Comparable<Member>{
+public class Member{
 
     private String memberId;
     private String name;

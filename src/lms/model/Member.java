@@ -66,4 +66,11 @@ public class Member implements Comparable<Member>{
         return Integer.compare(other.borrowedCount, this.borrowedCount);
 
     }
+
+    //Experiment 03
+//    @Override
+//    public int compareTo(Member other) {
+//        return Integer.compare(this.borrowedCount, other.borrowedCount);
+//
+//    }
 }

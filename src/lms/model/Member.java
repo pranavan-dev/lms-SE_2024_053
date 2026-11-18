@@ -55,6 +55,7 @@ public class Member implements Comparable<Member>{
     public void incrementBorrowedCount() {
         setBorrowedCount(borrowedCount + 1);
     }
+    public void decrementBorrowedCount() {setBorrowedCount(borrowedCount - 1);}
 
     @Override
     public String toString() {

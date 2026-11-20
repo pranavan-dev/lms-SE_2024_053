@@ -1,12 +1,13 @@
 
 package lms;
 
+import lms.exception.ItemNotAvailableException;
 import lms.model.*;
 import lms.service.Library;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ItemNotAvailableException {
 
         Library library = new Library();
 

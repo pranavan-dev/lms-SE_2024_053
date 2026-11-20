@@ -1,6 +1,8 @@
 
 package lms.service;
 
+import lms.exception.ItemNotAvailableException;
+import lms.exception.MemberNotFoundException;
 import lms.model.*;
 
 import java.util.ArrayList;
@@ -58,7 +60,7 @@ public class Library {
         }
     }
 
-    public void lend(Loanable thing,Member member){
+    public void lend(Loanable thing,Member member) throws ItemNotAvailableException {
         thing.loan(member);
     }
 
@@ -80,5 +82,13 @@ public class Library {
                             + "( "+member.getBorrowedCount()
                             + " borrowed)");
         }
+    }
+
+    public Member findMember(String memberId) throws MemberNotFoundException{
+        throw new MemberNotFoundException(memberId);
+    }
+
+    public LibraryItem findItem(String itemId) throws ItemNotAvailableException{
+
     }
 }

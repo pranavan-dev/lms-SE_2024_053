@@ -85,10 +85,35 @@ public class Library {
     }
 
     public Member findMember(String memberId) throws MemberNotFoundException{
+        for (Member m : members){
+            if (m.getMemberId().equals(memberId)){
+                return m;
+            }
+        }
         throw new MemberNotFoundException(memberId);
     }
 
     public LibraryItem findItem(String itemId) throws ItemNotAvailableException{
-
+        for (LibraryItem item : items){
+            if (item.getId().equals(itemId)){
+                return item;
+            }
+        }
+        throw new ItemNotAvailableException("No item with id : "+itemId);
     }
+
+    public void borrowItem(String itemId, String memberId) throws ItemNotAvailableException, MemberNotFoundException {
+        Member member = findMember(memberId);
+        LibraryItem item = findItem(itemId);
+        item.loan(member);
+    }
+
+    public void returnItem(String itemId) throws ItemNotAvailableException{
+        findItem(itemId).returnItem();
+    }
+
+    public List<LibraryItem> getItems() { return items; }
+    public List<Member> getMembers() { return members; }
+
+
 }

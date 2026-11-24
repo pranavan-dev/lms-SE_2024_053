@@ -67,6 +67,7 @@ public abstract class LibraryItem implements Loanable{
 
         }
         isBorrowed = true;
+        borrower = member;
         member.incrementBorrowedCount();
         System.out.println(title +  " loaned to " + member.getName());
     }
@@ -77,9 +78,9 @@ public abstract class LibraryItem implements Loanable{
             throw new ItemNotAvailableException(
                     title+ " is not on loan");
         }
-        isBorrowed = false;
-        borrower = null;
         borrower.decrementBorrowedCount();
+        borrower = null;
+        isBorrowed = false;
         System.out.println(title + " returned.");
     }
 
